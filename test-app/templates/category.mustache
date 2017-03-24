@@ -1,0 +1,9 @@
+<h1>{{category}}</h1>
+<h2>{{description}}</h2>
+<p><a href="/story/{{category}}/0">A story about {{category}}</a></p>
+<p>How does {{category}} pair with:</p>
+<ul>
+{{#comparisons}}
+	<li><a href="/comparisons/{{category}}/{{otherCategory}}">{{otherCategory}}</a></li>
+{{/comparisons}}
+</ul>
